@@ -1,0 +1,172 @@
+#imageContainer {
+	
+	width: 100%;
+	padding-top: 110px;
+	padding-bottom: 40px;
+	min-height: 500px;
+}
+
+.otherColorHeader {
+	font-size: 3em;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#mainImage {
+	width: 30vw;
+	height: auto;
+/*	display: inline-block;*/
+	margin-left: 20%;
+	/*	float: left;*/
+	max-height: 300px;
+}
+
+.buyButton a {
+	color: white;
+}
+
+.infoContainer {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: rgba(239, 241, 240, 0.8);
+	text-align: center;
+	margin-right: 10%;
+	
+/*	margin-top: -100px;*/
+/*	display: inline-block;*/
+	float: right;
+}
+
+.productItemTitle {
+	font-weight: 800;
+	color: black;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.productItemPrice {
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+.buyButton {
+	background-color: rgb(239,96,167);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 90%;
+	margin: auto;
+	font-weight: 500;
+	font-size: 18px;
+	margin-top: 60px;
+	color: white;
+}
+
+.quantitySelector {
+	text-align: right;
+	width: 40px;
+}
+
+label {
+	float:left;
+	margin-right: 100px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: right;
+	padding-left: 10px;
+}
+
+.lightGray {
+	color: rgb(179,179,181);
+}
+
+.descDivTitle {
+	font-weight: 600;
+	margin-left: 30vw;
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.descDiv {
+	font-size: 16px;
+	margin-left: 30vw;
+	margin-bottom: 20px;
+	padding-right: 10%;
+}
+
+.smallItemImage {
+	
+	max-width: 50px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#allImagesContainer {
+	
+	margin-top: 20px;
+
+}
+
+
+.smallItemImage img {
+	height: 60px;
+	width: auto;
+}
+
+#collapseInfo {
+	display:none;
+}
+
+@media (max-width: 700px) {
+	#nonCollapseInfo {
+		display: none;
+	}
+	
+	#mainImage {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+	
+	#collapseInfo {
+		display: block;
+		width: 100%;
+	}
+	
+	.productItemTitle {
+		margin-top: 15px;
+		margin-bottom: 0px;
+	}
+	
+	label {
+		margin-left: 5vw;
+	}
+	
+	.form-control {
+		margin-right: 15vw;
+		text-align: center
+	}
+	
+	.quantitySelector {
+		margin-right: 15vw;
+	}
+	
+	#buyButton {
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	#descriptionTitle {
+		margin-left: 5vw;
+	}
+	
+		#productDescription {
+		margin-left: 5vw;
+	}
+}

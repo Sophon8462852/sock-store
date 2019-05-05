@@ -1,0 +1,250 @@
+body {
+  font-weight: lighter;
+  font-family: 'avenir', 'helvetica-neue', 'helvetica', sans-serif;
+  font-size: 14px;
+  background-color: white;
+  color: #f9bdbe;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+i {
+  border: solid #f9bdbe;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+#downArrow {
+    position: absolute;
+    bottom: 35px;
+}
+
+#upArrow {
+    border: solid #9C9CDD;
+    border-width: 0 5px 5px 0;
+    position: absolute;
+    bottom: 30px;
+    right: 10%;
+    padding: 14px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#subTitle {
+  font-size: 1.5em;
+}
+
+#main {
+  text-align: center;
+  width: auto;
+
+  background-color: #9C9CDD;
+  margin :0px;
+  
+
+
+  position: relative;
+  height: 100%;
+}
+
+#menuButton {
+  display: none;
+}
+/*
+#contactButton {
+    padding: 10px;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 20px;
+    width: 50px;
+    color: white;
+}*/
+
+.links {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+#introDiv {
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 00;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#contactButton {
+    position: fixed;
+    top: 20px;
+    right: 10%;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+  font-weight: lighter;
+  margin-bottom: 30px;
+  font-size: 4.5em;
+  font-weight: 850;
+  position: absolute;
+  bottom: 35px;
+}
+
+#videoDiv {
+    width: 100%;
+    height: 800px;
+    background: black;
+}
+
+#contactTitle {
+    margin-bottom: 50px;
+    font-size: 2.5em;
+}
+
+.contactInfo {
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+#contactDiv {
+    padding: 10px;
+    padding-top: 20px;;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    background-color: #f9bdbe;
+    color:  #9C9CDD;
+    font-weight: 900;
+    font-size: 2em;
+    position: relative;
+}
+
+#dropDownPanel {
+  background-color: #ede4c0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#contactPage {
+  padding: 30px;
+}
+
+.contactInfo {
+  margin-bottom: 10px;
+}
+
+.placeholderText {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 100px;
+  color: black;
+}
+
+#subTitle {
+    font-size: 2.5em;
+}
+
+#name {
+    font-weight: 800;
+}
+
+.highlight {
+  color: purple;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+}
+
+@media (max-width: 35em) {
+  #main {
+    padding-top: 10px;
+  }
+
+  #title {
+      font-size: 4em;
+  }
+
+  #menuButton {
+    display: block;
+  }
+
+  #dropDownPanel {
+    background-color: #ede4c0;
+    padding-bottom: 10px;
+    display: none;
+  }
+
+  #container {
+    transition-duration: 0.8s;
+  }
+
+  .links {
+    display: block;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    z-index: 2;
+  }
+}
+
+#menuButton {
+  margin: auto;
+  height: 5px;
+	width: 30px;
+	margin-top: 5px;
+	/*padding-top: 7px;
+	padding-bottom: 2px;*/
+  /*position: absolute;
+  top: 150px;
+  left: 200px;*/
+  position: relative;
+}
+
+.buttonLine {
+	height: 2px;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 3px;
+	transition-duration: 0.5s;
+  position:absolute;
+  width: 30px;
+}
+
+#topBL {
+	top: 1px;
+}
+
+#lowBL {
+	top: 7px;
+}

@@ -1,0 +1,110 @@
+#checkoutContainer {
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+#payExButton {
+	background: red;
+}
+
+#payexDisclaimer {
+	
+	margin-top: 50px;
+	font-size: 18px;
+	color: darkgray;
+}
+
+
+#payexDisclaimer img {
+	margin-top: 10px;
+}
+
+#totalDiv {
+	
+	float: right;
+
+}
+
+.adressFormField {
+	display: inline-block;
+	width: 40%;
+	max-width: 200px;
+	min-width: 50px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.adressFormField input, select {
+	border: none;
+	border: 1px solid darkgray;
+	border-radius: 0px;
+}
+
+#adressContainer {
+	margin-top: 100px;
+	width: 600px;
+}
+
+.checkoutHeader {
+	font-size: 3em;
+	margin-top: 50px;
+}
+
+#divUnderCheckout {
+	clear: both;
+}
+
+#paypalButton {
+	width: 100%;
+	text-align: center;
+}
+
+.paymentMethodDiv {
+	width: 20%;
+	padding: 30px;
+	font-size: 18px;
+	border: 1px solid darkgray;
+	border-radius: 0px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	text-align: center;
+	min-width: 100px;
+	max-width: 150px;
+	height: 90px;
+	vertical-align: middle;
+}
+
+.paymentMethodContainer {
+	display: block;
+	
+	widows: 100%;
+}
+
+@media (max-width: 600px) {
+/*width: 300px;*/
+
+#totalDiv {
+	
+	float: none;
+	margin: auto;
+	width: 80%;
+}
+
+#adressContainer {
+	padding-left: 20px;
+	width: 100%;
+}
+
+
+}
+
+@media (max-width: 400px) {
+
+#checkoutContainer {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+}
+
