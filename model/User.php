@@ -111,7 +111,7 @@ class User {
 	 set_message("User Created, Confirmation Email Sent");
 	 redirect("admin.php?users");
 
-	 $meddelande = "To confirm your account, please press this link: .php?username=". $username ."&confirmation=" . $confirmation_string;
+	 $meddelande = "To confirm your account, please press this link: kaliff.xyz/confirm.php?username=". $username ."&confirmation=" . $confirmation_string;
 	 $mottagare=$_POST["email"];
 	 $rubrik="Account Confirmation";
 	 $mejlhuvud="From: ". $email ." \nReply-To: kalle@anka.se";
